@@ -1,9 +1,26 @@
 body {
+    margin: 0;
+    padding: 0;
     font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.countries {
+header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* .countries {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+.countries, .fruits {
+    list-style-position: inside;
 }
 
 #usa {
