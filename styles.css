@@ -1,0 +1,26 @@
+body {
+    font-weight: bolder;
+}
+
+.countries {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#usa {
+    background-color: cornflowerblue;
+    list-style-type: none;
+}
+
+#pan {
+    background-color: darkseagreen;
+    list-style: georgian;
+}
+
+#can {
+    background-color: ghostwhite;
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
